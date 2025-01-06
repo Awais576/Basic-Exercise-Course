@@ -488,6 +488,7 @@ namespace practicetc
                 Console.WriteLine($"The longest word in file is:{longestWord}");
                 Console.WriteLine($"The longest word in file is:{longestWord}");
                 Console.WriteLine($"I have completed the Course: {name}");
+                Console.WriteLine($"I have completed the Course: {name}");
             }
             catch (Exception ex)
             {
