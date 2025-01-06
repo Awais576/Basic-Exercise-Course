@@ -485,6 +485,7 @@ namespace practicetc
                 // Count the words and display the result
                 Console.WriteLine($"The number of words in the file is: {wordCount}");
                 Console.WriteLine($"The longest word in file is:{longestWord}");
+                Console.WriteLine($"The longest word in file is:{longestWord}");
             }
             catch (Exception ex)
             {
