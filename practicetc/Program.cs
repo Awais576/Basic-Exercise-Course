@@ -490,8 +490,6 @@ namespace practicetc
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
-
-
         }
     }
 }
