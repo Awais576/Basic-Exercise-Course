@@ -461,6 +461,7 @@ namespace practicetc
 
             //filing exercise
             string filePath = @"C:\Users\Awais\Desktop\file.txt";
+            var name = "C# Fundamentals";
 
             // Check if the file exists
             if (!File.Exists(filePath))
@@ -486,11 +487,13 @@ namespace practicetc
                 Console.WriteLine($"The number of words in the file is: {wordCount}");
                 Console.WriteLine($"The longest word in file is:{longestWord}");
                 Console.WriteLine($"The longest word in file is:{longestWord}");
+                Console.WriteLine($"I have completed the task {name}");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
+            
         }
     }
 }
